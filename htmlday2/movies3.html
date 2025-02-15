@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ratings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: gold;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #00bcd4;
+            color: white;
+        }
+        .poster img {
+            width: 100px;
+        }
+        .trailer img {
+            width: 100px;
+        }
+        .learn-more {
+            background-color: #ffeb3b;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;background-color: rgb(254, 228, 79);"><u>Movie Review Table</u></h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Poster</th>
+                <th>Movie Title</th>
+                <th>Rating</th>
+                <th>Trailer</th>
+                <th>IMDB Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="poster"><img src="https://ninjatables.com/wp-content/uploads/2022/10/aminss-300x300.png" width="300" height="170" alt="Minions: The Rise of Gru"></td>
+                <td>Minions: The Rise of Gru</td>
+                <td>6.6</td>
+                <td class="trailer"><iframe width="200" height="200" src="https://www.youtube.com/embed/6DxjJzmYsXo" title="Minions: The Rise of Gru | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><a href="#" class="learn-more">Learn more</a></td>
+            </tr>
+            <tr>
+                <td class="poster"><img src="https://ninjatables.com/wp-content/uploads/2022/09/Rectangle-207-2-1.png" alt="12 Angry Men"></td>
+                <td>12 Angry Men</td>
+                <td>8.9</td>
+                <td class="trailer"><iframe width="200" height="200" src="https://www.youtube.com/embed/_13J_9B5jEk" title="12 Angry Men (1957) Trailer #1 | Movieclips Classic Trailers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><a href="#" class="learn-more">Learn more</a></td>
+            </tr>
+            <tr>
+                <td class="poster"><img src="https://ninjatables.com/wp-content/uploads/2022/09/Rectangle-207-4-1.png" alt="Pulp Fiction"></td>
+                <td>Pulp Fiction</td>
+                <td>8.9</td>
+                <td class="trailer"><iframe width="200" height="200" src="https://www.youtube.com/embed/s7EdQ4FqbhY" title="Pulp Fiction Official Trailer #1 - (1994) HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                <td><a href="#" class="learn-more">Learn more</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
